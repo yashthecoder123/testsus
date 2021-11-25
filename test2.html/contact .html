@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("Images/flower.jpg");
+            color:black;
+            font-size:30px;
+       }
+       #div{
+            background-color:lime;
+            color:chocolate;
+            height:200px;
+            width:200px;
+            border-style:solid;
+            border-color:darkgoldenrod;
+            border-width:30px;
+            text-align:center;
+        }
+        #nav1{
+         background-color: black;
+        }
+        .navigation{
+         display: inline;
+         padding-left: 10px;
+         padding-right: 10px;
+        }
+        .thing{
+         color: white;
+        }
+        .thing:hover{
+         color: lightgreen;
+         font-size:40px;
+        }
+    </style>
+</head>
+<body>
+
+    <marquee><h1>Contact Me</h1></marquee>
+   
+    <nav>
+        <ul id="nav1" style="list-style-type: none;">
+            <li class="navigation">
+             <a class="thing" href="index.html">Index</a>
+            </li>
+            <li class="navigation">
+                <a class="thing" href="about.html">About</a>
+            </li>
+            <li class="navigation">
+                <a class="thing" href="contact .html">Contact</a>
+            </li>
+            <li class="navigation">
+                <a class="thing" href="my favourite videos.html">My Favourite Videos</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <center>
+        <div id="div1">
+        
+        </div>
+    </center>
+    <p style="color: blue; font-size:50px;font-family:'Agency FB';">Email: 381823811@gmail.com                                           
+                                Phone #: 881-319-4994</p>
+    <p style="color:cyan; font-size:40px; font-family:'Cooper Black';">Address: 123 sus man hill</p>
+
+    <form method="POST">
+        <label for="name"> Name: </label>
+        <input type="text" name="name" placeholder="Enter your name">
+        <br/>
+        <label for="MOB">Mobile No:: </label>
+        <input type="number" name="MOB" placeholder="Enter your mobile number">
+        <br/>
+        <label for="DOB">Date Of Birth: </label>
+        <input type="date" name="DOB" placeholder="Enter your date of birth">
+        <br/>
+        <label for="EMAIL">Email: </label>
+        <input type="email" name="EMAIL" placeholder="Enter your email">
+        <br/>
+        <label for="AD">Address: </label>
+        <input type="text" type="number" name="AD" placeholder="Enter your address">
+
+        <br/>
+        <label for="S/Q">Suggestions and, or Questions</label>
+        <input type="text" name="S/Q" placeholder="Enter any suggestions and/or questions you may have">
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+    </form>
+    <p style="color:darkgoldenrod; font-size:40px; font-family: 'Agency FB';">Yash</p>
+
+
+    
+</body>
+</html>
